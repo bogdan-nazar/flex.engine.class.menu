@@ -1,0 +1,384 @@
+.admin .menu {}
+.admin .menu .list .btn-edit {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background:url('{$modTplDir}images/list-edit.png') left top no-repeat;
+	cursor:pointer;
+}
+.admin .menu .list .btn-del {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 auto;
+	background:url('{$modTplDir}images/btn-del.png') left top no-repeat;
+	cursor:pointer;
+}
+.admin .menu .list .btn-del:hover {
+	background-position:left -36px;
+}
+.admin .menu .list .btn-bind {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin-left:5px;
+	background:url('{$modTplDir}images/btn-bind.png') left 1px no-repeat;
+	cursor:pointer;
+}
+.admin .menu .list .btn-bind:hover {
+	background-position:left -35px;
+}
+.admin .menu .list .btn-del-wait {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	cursor:default;
+}
+.admin .menu .list table tr:hover {
+	background-color:#eeefeb;
+}
+.admin .menu .list table tr td span.link {
+	text-decoration:underline;
+	color:#0b55c4;
+	cursor:pointer;
+}
+.admin .menu .list table tr td span.link:hover {
+	text-decoration:none;
+}
+/* ----------------- окно редактирования меню ------------------- */
+.menu .menu-admin {
+	width:565px;
+}
+.menu .menu-admin {
+	text-align:left;
+}
+.menu .menu-admin .item-title {
+	min-height:21px;
+	font-weight:bold;
+	font-size:14px;
+	background:url('{$modTplDir}images/bg-pu-title.gif') left top repeat-x;
+}
+.menu .menu-admin .item-wait {
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	padding:18px 0 2px 25px;
+}
+.menu .menu-admin .item-info {
+	float:right;
+	width:190px;
+	margin-top:20px;
+	border:1px solid #fec840;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+  	padding:5px;
+}
+.menu .menu-admin .item-fields {
+	padding-top:20px;
+	width:340px;
+}
+.menu .menu-admin .item-fields .fld-title {
+}
+.menu .menu-admin .item-fields input[type="text"] {
+	width:300px;
+	outline:0 solid #cecece;
+	border:1px solid #bcbcbc;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+	padding:2px;
+}
+.menu .menu-admin .item-fields input[type="text"]:focus {
+	-moz-outline-radius:3px; /* firefox */
+	outline-width:1px; /* firefox */
+	outline:3px auto -webkit-focus-ring-color; /* chrome */
+	outline-color:#cecece; /* chrome - перезапись цвета webkit */
+}
+.menu .menu-admin .item-fields select.fselect {
+	width:140px;
+	outline:0 solid #cecece;
+	border:1px solid #bcbcbc;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+	padding:2px;
+}
+.menu .menu-admin .item-fields select.fselect:focus {
+	-moz-outline-radius:3px; /* firefox */
+	outline-width:1px; /* firefox */
+	outline:3px auto -webkit-focus-ring-color; /* chrome */
+	outline-color:#cecece; /* chrome - перезапись цвета webkit */
+}
+.menu .menu-admin .item-fields .fld-wrap {
+	width:332px;
+	padding-bottom:5px;
+}
+.menu .menu-admin .item-fields .fld-wrap2 {
+	width:166px;
+	padding-bottom:5px;
+}
+.menu .menu-admin .item-fields .icn-hint {
+	float:right;
+	height:24px;
+	width:24px;
+	background:url('{$modTplDir}images/icn-hint.png') center 4px no-repeat;
+	cursor:pointer;
+}
+.menu .menu-admin .item-fields .icn-hint:hover {
+	background-position:center -28px;
+}
+.menu .menu-admin .item-fields .icn-hint.on {
+	background-position:center -28px;
+}
+.menu .menu-admin .item-fields .flags-wrap .flags {
+	display:inline-block;
+	width:166px;
+}
+.menu .menu-admin .item-btns {
+	padding:20px 0 10px 0;
+	text-align:center;
+	clear:right;
+}
+.menu .menu-admin .item-btns .btn {
+	display:inline-block;
+	width:120px;
+	padding:4px 0;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #bcbcbc;
+	background-color:#fff;
+}
+.menu .menu-admin .item-btns .btn:hover {
+	background-color:#f0f0f0;
+	color:#0b55c4;
+}
+.menu .menu-admin .item-btns .btn.marg {
+	margin-left:30px;
+}
+/* ----------------------- nodes editor ------------------------- */
+.admin .menu .edit .path {
+	padding-bottom:10px;
+	font-size:14px;
+}
+.admin .menu .edit .path * {
+	font-size:14px;
+}
+.admin .menu .edit .path b {
+	display:inline-block;
+	padding:1px 5px;
+	background-color:#10890d;
+	color:#fff;
+}
+.admin .menu .edit .path b.root {
+	cursor:pointer;
+	text-decoration:underline;
+}
+.admin .menu .edit .path b.root:hover {
+	text-decoration:none;
+}
+.admin .menu .edit .path span.path-item {
+	text-decoration:underline;
+	color:#0b55c4;
+	cursor:pointer;
+}
+.admin .menu .edit .path span.path-item:hover {
+	text-decoration:none;
+}
+.admin .menu .edit .path span.path-item.last {
+	text-decoration:none;
+	color:#0b55c4;
+	cursor:default;
+}
+.admin .menu .edit .btn-edit {
+	display:inline-block;
+	width:0;
+	height:24px;
+	padding-left:24px;
+	overflow:hidden;
+	background:url('{$modTplDir}images/list-edit.png') left top no-repeat;
+	cursor:pointer;
+}
+.admin .menu .edit .btn-del {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 auto;
+	background:url('{$modTplDir}images/btn-del.png') left top no-repeat;
+	cursor:pointer;
+}
+.admin .menu .edit .btn-del:hover {
+	background-position:left -36px;
+}
+.admin .menu .edit .btn-bind {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin-left:5px;
+	background:url('{$modTplDir}images/btn-bind.png') left 1px no-repeat;
+	cursor:pointer;
+}
+.admin .menu .edit .btn-bind:hover {
+	background-position:left -35px;
+}
+.admin .menu .edit .btn-del-wait {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	cursor:default;
+}
+.admin .menu .edit table tr:hover {
+	background-color:#eeefeb;
+}
+.admin .menu .edit table tr td span.link {
+	text-decoration:underline;
+	color:#0b55c4;
+	cursor:pointer;
+}
+.admin .menu .edit table tr td span.link:hover {
+	text-decoration:none;
+}
+/* ----------------- popup-окно редактирования меню ------------------- */
+.menu .menu-admin .node-edit {
+	width:565px;
+	text-align:left;
+}
+.menu .menu-admin .node-edit .title {
+	min-height:21px;
+	font-weight:bold;
+	font-size:14px;
+	background:url('{$modTplDir}images/bg-pu-title.gif') left top repeat-x;
+}
+.menu .menu-admin .node-edit .wait {
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	padding:18px 0 2px 25px;
+}
+.menu .menu-admin .node-edit .wait.err {
+	background:none;
+	color:red;
+	padding-left:0;
+}
+.menu .menu-admin .node-edit .hints-area {
+	float:right;
+	width:190px;
+	margin-top:20px;
+	border:1px solid #fec840;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+  	padding:5px;
+}
+.menu .menu-admin .node-edit .fields {
+	padding-top:20px;
+	width:340px;
+}
+/*---*/
+.menu .menu-admin .node-edit .fields .fld-title {
+}
+.menu .menu-admin .node-edit .fields input[type="text"] {
+	width:300px;
+	outline:0 solid #cecece;
+	border:1px solid #bcbcbc;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+	padding:2px;
+}
+.menu .menu-admin .node-edit .fields input[type="text"]:focus {
+	-moz-outline-radius:3px; /* firefox */
+	outline-width:1px; /* firefox */
+	outline:3px auto -webkit-focus-ring-color; /* chrome */
+	outline-color:#cecece; /* chrome - перезапись цвета webkit */
+}
+.menu .menu-admin .node-edit .fields select.fselect {
+	width:140px;
+	outline:0 solid #cecece;
+	border:1px solid #bcbcbc;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+  	border-radius:3px;
+	padding:2px;
+}
+.menu .menu-admin .node-edit .fields select.fselect:focus {
+	-moz-outline-radius:3px; /* firefox */
+	outline-width:1px; /* firefox */
+	outline:3px auto -webkit-focus-ring-color; /* chrome */
+	outline-color:#cecece; /* chrome - перезапись цвета webkit */
+}
+.menu .menu-admin .node-edit .fields select.fselect.type {
+	width:309px;
+}
+.menu .menu-admin .node-edit .fields select.fselect.flag {
+	width:134px;
+}
+.menu .menu-admin .node-edit .fields .fld-wrap {
+	width:339px;
+	padding-bottom:5px;
+}
+.menu .menu-admin .node-edit .fields .fld-wrap2 {
+	width:164px;
+	padding-bottom:5px;
+}
+.menu .menu-admin .node-edit .fields .icn-hint {
+	float:right;
+	height:24px;
+	width:24px;
+	background:url('{$modTplDir}images/icn-hint.png') center 4px no-repeat;
+	cursor:pointer;
+}
+.menu .menu-admin .node-edit .fields .icn-hint:hover {
+	background-position:center -28px;
+}
+.menu .menu-admin .node-edit .fields .icn-hint.on {
+	background-position:center -28px;
+}
+.menu .menu-admin .node-edit .fields .flags-wrap .flags {
+	display:inline-block;
+	width:164px;
+	vertical-align:top;
+}
+.menu .menu-admin .node-edit .fields .flags-wrap .flags-sp {
+	display:inline-block;
+	width:11px;
+	height:45px;
+	vertical-align:top;
+}
+.menu .menu-admin .node-edit .fields .grp-more {
+	display:none;
+	border-top:1px dashed #bcbcbc;
+	padding-top:5px;
+}
+/*---*/
+.menu .menu-admin .node-edit .buttons {
+	padding:20px 0 10px 0;
+	text-align:center;
+	clear:right;
+}
+.menu .menu-admin .node-edit .buttons .btn {
+	display:inline-block;
+	width:120px;
+	padding:4px 0;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #bcbcbc;
+	background-color:#fff;
+}
+.menu .menu-admin .node-edit .buttons .btn:hover {
+	background-color:#f0f0f0;
+	color:#0b55c4;
+}
+.menu .menu-admin .node-edit .buttons .btn.marg {
+	margin-left:30px;
+}
